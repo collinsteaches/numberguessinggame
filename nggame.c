@@ -1,4 +1,16 @@
+/*
+*/
+#include <ctype.h> //ctype contains the tolower() function
+#include <math.h>
+#include <stdio.h>
+int main(void) {
+    int min = 0; // user defined minimum
+    int max = 100; // variables to store range of possible values
+    int range = 1; // the range for stopping the program
+    char reply;
+    int Y, N;
     int avg;
+    int i;
     while ((max - min) > range) {
         Y = 0; // event Y is not true.
         N = 0; // event N is not true.
